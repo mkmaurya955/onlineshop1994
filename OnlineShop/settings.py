@@ -149,9 +149,9 @@ prod_db  =  dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
 #S3 BUCKETS CONFIG
 AWS_LOCATION = 'static'
-AWS_ACCESS_KEY_ID = 'AKIAS7I75X2JLCUTMY2H'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'django-shop-files'
+AWS_ACCESS_KEY_ID = '########'
+AWS_SECRET_ACCESS_KEY = '#############'
+AWS_STORAGE_BUCKET_NAME = '#########'
 
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
